@@ -4,19 +4,19 @@ This repository evaluates and compares the stability of feature importance ranki
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 Machine learning models often assign different importance weights to features depending on their architecture. This project measures the agreement and stability of SHAP feature importance rankings between linear models and tree-based ensemble models across multiple credit risk datasets.
 
 ---
 
-## 🛠️ Datasets Used
+##  Datasets Used
 - **German Credit Dataset**
 - **UCI Credit Card Default Dataset**
 - **GiveMeCredit Dataset**
 
 ---
 
-## 🤖 Models & Explainability Frameworks
+##  Models & Explainability Frameworks
 - **Models:**
   - Logistic Regression (Linear baseline)
   - Random Forest (Tree Ensemble)
@@ -26,14 +26,14 @@ Machine learning models often assign different importance weights to features de
 
 ---
 
-## 📏 Evaluation Metrics
+##  Evaluation Metrics
 To compare the feature ranking consistency across models, the following metrics are computed:
 - **Spearman Rank Correlation Coefficient:** Measures the overall rank correlation of features between models.
 - **Jaccard Overlap Index ($Top-K$):** Evaluates the intersection consistency of the top-3 ($K=3$) and top-5 ($K=5$) most important features.
 
 ---
 
-## 💻 Tech Stack & Requirements
+##  Tech Stack & Requirements
 - Python 3.x
 - `shap`
 - `xgboost`
@@ -44,7 +44,7 @@ To compare the feature ranking consistency across models, the following metrics 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone [https://github.com/EantayOthtite-001/ML-Feature-Importance-stability.git](https://github.com/EantayOthtite-001/ML-Feature-Importance-stability.git)
